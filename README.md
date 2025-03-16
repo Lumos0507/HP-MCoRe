@@ -32,11 +32,11 @@ c. We provide some pose data in the [examples](examples/annotations) for present
 
 d. You can download the human-annotated pose dataset [here](https://pan.baidu.com/s/1Ozhd0c3H-KSqcLdno6WH2Q?pwd=9kq2)
 
-
 **TODO:** The complete dataset and code will be available once the paper is accepted. Stay tune！
+
 ## Train and Eval
 
-The training code is now available!
+We have released part of the code, and the full code will be made publicly available after the paper is accepted.
 
 ## Citation
 

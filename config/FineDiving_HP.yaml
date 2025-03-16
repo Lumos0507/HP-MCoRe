@@ -1,0 +1,56 @@
+# basic
+bs_train : 8
+bs_test : 24
+workers : 6
+max_epoch : 201
+
+# model
+pretrained_i3d_weight : 'models/model_rgb.pth'
+data_set : 'FineDiving'
+# dataset
+data_root : '/dataset/FineDiving'
+label_path : 'Annotations/fine-grained_annotation_aqa.pkl'
+train_split : 'Annotations/train_split.pkl'
+test_split :  'Annotations/test_split.pkl'
+
+# transformer
+num_heads : 2
+num_layers : 4
+#try
+# optimizer
+optimizer: 'Adam'
+weight_decay : 0
+base_lr : 0.001
+lr_factor : 0.1
+
+# others
+seed : 0
+frame_length : 96
+voter_number : 10
+print_freq : 40
+fix_size : 10
+step_num : 3
+prob_tas_threshold : 1
+#random_choosing : False
+action_number_choosing: True
+DD_choosing: False
+
+
+# Pose_Dataset:
+Pose_Dataset: posedive
+Pose_Pretrained_Root: /work_dirs/hrnet-w48_dark-8xb64-210e_posedive-256x256/epoch_210.pth
+Pose_Anno_path: /dataset/Pose
+Heat_flag: False
+Pose_flag: True
+Heat_Anno_path: /FineDiving/heat_posedive
+using_DD: False
+
+Num_Branches_JCA: 3
+Num_JCA_Layers: 2
+Expansion_Factor_JCA: 1.0833333333333333
+JCA_Expansion_Balance: 10
+Temporal_Attention_Method: Linear
+
+Pose_Spatial_Size: 64
+
+

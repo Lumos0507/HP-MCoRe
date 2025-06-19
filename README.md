@@ -30,7 +30,7 @@ b. We expanded the human-annotated pose data and the automatically annotated pos
 
 c. We provide some pose data in the [examples](examples/annotations) for presentation.
 
-d. You can download the human-annotated pose dataset [here](https://pan.baidu.com/s/1Ozhd0c3H-KSqcLdno6WH2Q?pwd=9kq2)
+d. You can download the human-annotated pose dataset [here](https://pan.baidu.com/s/1MjSa8lALdv4PEpUHPcGiCQ?pwd=kq89)
 
 **TODO:** The complete dataset and code will be available once the paper is accepted. Stay tune！
 

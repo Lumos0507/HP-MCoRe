@@ -1,7 +1,7 @@
 # basic
 bs_train : 8
-bs_test : 24
-workers : 6
+bs_test : 8
+workers : 12
 max_epoch : 201
 
 # model
@@ -12,7 +12,7 @@ data_root : '/dataset/FineDiving'
 label_path : 'Annotations/fine-grained_annotation_aqa.pkl'
 train_split : 'Annotations/train_split.pkl'
 test_split :  'Annotations/test_split.pkl'
-
+data_splash : '/dataset/FineDiving-splash/'
 # transformer
 num_heads : 2
 num_layers : 4
@@ -20,7 +20,7 @@ num_layers : 4
 # optimizer
 optimizer: 'Adam'
 weight_decay : 0
-base_lr : 0.001
+base_lr : 0.0005
 lr_factor : 0.1
 
 # others

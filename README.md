@@ -20,7 +20,7 @@ Official implementation of **Action Quality Assessment via Hierarchical Pose-gui
 
 ---
 <p align="center">
-  <img src="assets/teaser.png" width="900" />
+  <img src="asset/teaser.png" width="900" />
 </p>
 
 ## Overview
@@ -67,7 +67,7 @@ We expand both **human-annotated** and **automatically annotated** pose data.
 ## Results
 Comparison results with the state-of-the-art methods on finediving dataset. Best results are in bold. Here w/DN and w/o DN refer to with and without using dive numbers.
 <p align="center">
-  <img src="assets/results.png"/>
+  <img src="asset/results.png"/>
 </p>
 
 ---

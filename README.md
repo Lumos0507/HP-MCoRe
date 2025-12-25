@@ -38,7 +38,7 @@ Compared to the preliminary version, we leverage an additional skeletal modality
 - [Release](#release)
 - [Dataset](#Dataset)
 - [Results](#Results)
-- [Run](#Code for HP-MCoRE)
+- [Run](#Code-for-HP-MCoRE)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
 
